@@ -74,11 +74,12 @@
     <!---------------- SERVICES ---------------->
     <section id="service">
         <div class="s-txt">
-            <div class="left-txt col-lg-4 col-sm -8">
+            
+            <div class="left-txt col-lg-4 col-sm-4">
                 <p>SERVICES</p>
                 <h1>We promise <br> the best servicse</h1>
             </div>
-            <div class="right-txt col-lg-4 col-sm-8 ">
+            <div class="right-txt col-lg-4 col-sm-4">
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                 Lorem Ipsum has been the industry's standard dummy text ever since the 
                 1500s, when an unknown printer took a galley of type and scrambled it 
@@ -86,49 +87,44 @@
             </div>    
         </div>
 
-        <div class="container-fluid">
-        <div class="row ">
-            <div class="p-01 col-lg-3 ">
-                <div class="s-mid">
-                    <h3>BOGANVILLIA</h3>
-                    <p>Lorem Ipsum is simply dummy text
-                      of the printing and typesetting industry.
-                     Lorem Ipsum has been the industry's standard dummy </p>
-                </div>
-              <img  class="s-img " src="images/s-1.jpg" alt="">
-               
-
-            </div>
-
-            <div class="p-02 col-lg-3">
-                <div class="s-mid">
-                    <h3>SUNFLOWER</h3>
-                <p>Lorem Ipsum is simply dummy text
-                  of the printing and typesetting industry.
-                 Lorem Ipsum has been the industry's standard dummy </p>
-                </div>
-                
-                 <img class="s-img "src="images/s-2.jpg" alt="">
- 
-             </div>
-
-             <div class="p-03 col-lg-3">
-                <div class="s-mid">
-                <h3>MOGRA</h3>
-                <p>Lorem Ipsum is simply dummy text
-                  of the printing and typesetting industry.
-                 Lorem Ipsum has been the industry's standard dummy </p>
-                 </div>
-                 <img class="s-img "src="images/s-3.jpg" alt="">
- 
-             </div>
+        <div class="row">
+            <!-- <div class="container-fluid"> -->
+                <div class="p-01 t-card col-lg-4 col-md-3 col-sm-3 ">
+                    <div class="t-container">
+                      <h4><b>Boganvilia</b></h4>
+                      <p>Lorem Ipsum is simply dummy text of the printing 
+                        and typesetting industry. </p>
+                    </div>
+                    <img class="s-img" src="images/s-1.jpg" alt="Avatar" style="width: 45%;" >
+                  </div>
+        
+                  <div class="p-02 t-card col-lg-4 col-md-3 col-sm-3">
+                    <div class="t-container">
+                      <h4><b>Sunflower</b></h4>
+                      <p>Lorem Ipsum is simply dummy text of the printing 
+                        and typesetting industry. </p>
+                    </div>
+                    <img class="s-img" src="images/s-2.jpg" alt="Avatar" style="width: 50%;" >
+                  </div>
+    
+                  <div class="p-03 t-card col-lg-4 col-md-3 col-sm-3 ">
+                    <div class="t-container">
+                      <h4><b>Mogra</b></h4>
+                      <p>Lorem Ipsum is simply dummy text of the printing 
+                        and typesetting industry. </p>
+                    </div>
+                    <img class="s-img" src="images/s-3.jpg" alt="Avatar" style="width: 50%;" >
+                  </div>
+          
         </div>
-    </div>
+        
 
     </section>
    
+
+
     <!---------------- TESTIMONIAL ---------------------------->
-    <section id="testimonial">
+    <!-- <section id="testimonial">
         <h1>Testimonials</h1>
         <div class="color-box "></div>
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -172,48 +168,101 @@
               <span class="sr-only">Next</span>
             </a>
           </div> 
-    </section>
+    </section> -->
 
 <!-------------------- contact ------------------------------------------->
 
     <section id="contact-section">
-        <div class="container">
-                    <h2>Get In Touch</h2>
-                    <div class="contact-form"> 
+       <div class="container" style="max-width: 90%;">
 
-                        <!-- First grid -->
-                        <div class="info">
-                            <i class="fas fa-map-marker-alt fa-3x ii"></i><span class="form-info">ADDRESS</span>
-                            <br>
-                                
-                            <i class="fas fa-mobile-alt fa-3x  ii"></i><span class="form-info"> MOBILW NO.</span>
-                                <br>
-                            <i class="far fa-envelope-open fa-3x  ii"></i><span class="form-info"> EMAIL ADRESS</span>
+        <div class="container contact-box" >
+            <div class="group">
+                <input id="cf_name" type="text" required />
+                <span class="highlight"></span>
+                <span class="bar"></span>
+                <label class="custom">Name</label>
+            </div>
+            <div class="group">
+                <input id="cf_name" type="text" required />
+                <span class="highlight"></span>
+                <span class="bar"></span>
+                <label class="custom">Email</label>
+            </div>
+            <div class="group">
+                <input id="cf_name" type="text" required />
+                <span class="highlight"></span>
+                <span class="bar"></span>
+                <label class="custom">Mobile-number</label>
+            </div>
+            <div class="group">
+                <input id="cf_name" type="text" required />
+                <span class="highlight"></span>
+                <span class="bar"></span>
+                <label class="custom">Message</label>
+            </div>
+            <button type="submit">SUBMIT</button>
+           </div>
+       </div>
 
-                        </div>
-
-                        <!-- second grid -->
-                        <div class="input-info">
-                            <form>
-                                <input type="text" placeholder=" Name" required><br>
-                                <input type="Email" placeholder="Email" required><br>
-                                <input type="text" placeholder="Company Name"><br>
-                                <textarea name="message" placeholder="Message" rows="1" required></textarea><br>
-                                <button class="submit">submit</button>
-                            </form>
-                        </div> 
-                    </div>
-                
-                </div>
-                <hr size="4" noshade="">
-                <footer style="color: white;">
-                    <h4 style="text-align: center;">COPYRIGHT © ,2020</h4>
-                </footer>
-             
-            
-        </div>
     </section>
 
+
+
+
+
+<!-- 
+    <script src="index.js"></script>
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="js/slick.min.js"></script>
+  <script type="text/javascript" src="js/slick.js"></script>
+  <script src="bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+    integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+  <script>
+    AOS.init();
+  </script>
+  <script type="text/javascript">
+    $('.slider').slick({
+      dots: true,
+      infinite: true,
+      arrows: true,
+      speed: 300,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            arrows: false,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            arrows: false,
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            arrows: false,
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
+    });
+  </script>
 
 </body>
 </html>
